@@ -1,0 +1,84 @@
+* {margin:0;
+   padding:0;
+   box-sizing: border-box;
+   font-family:'Times New Roman', Times, serif
+  }
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-inline: 1.5rem;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color:black;
+    color:white;
+    padding-block: 1rem;
+}
+
+.main {padding-block: 2rem;}
+.titulo{margin-bottom: 1rem;}
+
+.tarjetas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:1rem;
+    margin-bottom: 3rem;
+}
+
+.tarjeta {
+    background-color: black;
+    padding: .5rem;
+    border-radius: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.tarjeta-img{border-radius: .50rem;}
+
+.tarjeta-btn {border-radius: .50rem;
+border: 0;
+background-color: aliceblue;
+color: white;
+padding: .5rem;
+margin-top: .5rem;
+cursor: pointer;
+border: 2px solid aliceblue;
+transition: .2s;}
+
+.tarjeta-btn:hover {background-color: white;
+color: black;
+font-weight: 600;
+letter-spacing: 1px;}
+.carrito-tarjetas {display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.carrito-tarjeta {display: flex;
+                  gap: 1rem;
+                  align-items: center;
+                  justify-content: space-between;
+                  background-color: black;
+                  padding: .5rem 1rem;
+                  border-radius: 1rem;
+                  color: white;
+                  } 
+
+.carrito-tarjeta-btn {
+    background-color: white;
+    border: 0;
+    padding: .25rem;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+.d-none {display: none;}
